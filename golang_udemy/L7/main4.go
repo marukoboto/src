@@ -5,7 +5,7 @@ import "fmt"
 //関数
 //関数を引数に取る関数
 
-//
+//mainで実行されたものを受け取り、実行する。
 func CallFunction(f func()){
 	f()
 }
