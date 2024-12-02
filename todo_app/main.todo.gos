@@ -1,0 +1,86 @@
+// package main
+
+// //cd C:\Users\kanri\go\src\todo_app
+// //go run main.go
+// //sqlite3 webapp.sql
+// //SELECT * FROM todos;
+// //.exit
+
+// import (
+// 	"fmt"
+// 	"todo_app/app/models"
+// )
+
+// // ユーザー登録→ユーザーがtodoリストを作成する
+// func main() {
+// 	fmt.Println(models.Db)
+
+// 	// // ユーザーを作成
+// 	// //&models.User{}内の構造体を初期化し、uに代入
+// 	// //uに代入したものをCreateUser()で実行
+// 	// u := &models.User{}
+// 	// u.Name = "test2"
+// 	// u.Email = "test2@example.com"
+// 	// u.PassWord = "testtest"
+// 	// fmt.Println(u)
+
+// 	// u.CreateUser()
+
+// 	// // ユーザーの取得
+// 	// //戻り値 errを無視するため　_が設定されている
+// 	// //戻ってきた値を出力
+// 	// u, _ := models.GetUser(1)
+// 	// fmt.Println(u)
+
+// 	// u.Name = "Test2"
+// 	// u.Email = "test2@example.com"
+// 	// //DBに保存されているユーザー情報の更新
+// 	// u.UpdateUser()
+// 	// //DBからユーザー情報の取得
+// 	// u, _ = models.GetUser(1)
+// 	// fmt.Println(u)
+
+// 	// u.DeleteUser()
+// 	// u, _ = models.GetUser(1)
+// 	// fmt.Println(u)
+
+// 	// //文字列を追加する
+// 	// user, _ := models.GetUser(2)
+// 	// user.CreateTodo("First Todo")
+
+// 	// //todoの取得
+// 	// t, _ := models.GetTodo(1)
+// 	// fmt.Println(t)
+
+// 	// //todoの複数取得
+// 	// user, _ := models.GetUser(3)
+// 	// user.CreateTodo("Third Todo")
+
+// 	// todos, _ := models.GetTodos()
+// 	// for _, v := range todos {
+// 	// 	fmt.Println(v)
+// 	// }
+
+// 	// //user2には返ってきたuserがそのまま格納される
+// 	// user2, _ := models.GetUser(3)
+// 	// //GetTodoByUserで取得する
+// 	// todos, _ := user2.GetTodosByUser()
+// 	// //todos内に格納されている要素を取り出し表示する。
+// 	// for _, v := range todos {
+// 	// 	fmt.Println(v)
+// 	// }
+
+// 	// //データの更新
+// 	// t, _ := models.GetTodo(1)
+// 	// // データの取得 
+// 	// t.Content = "Update Todo"
+// 	// // .Content部分を更新
+// 	// t.UserID = 0
+// 	// // UserID部分を更新
+// 	// t.UpdateTodo()
+// 	// // DBに送信
+
+// 	t, _ := models.GetTodo(3)
+// 	t.DeleteTodo()
+	
+// }

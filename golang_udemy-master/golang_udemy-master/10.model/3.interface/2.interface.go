@@ -11,6 +11,7 @@ type Person struct {
 	Age  int
 }
 
+//ポインタ型にしないと正しい値が送信されないため*Personとなっている
 func (p *Person) ToString() string {
 	return fmt.Sprintf("Name=%v, Age=%v", p.Name, p.Age)
 }
